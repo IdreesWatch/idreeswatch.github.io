@@ -1,0 +1,19 @@
+{
+  "id": "org.idreeswatch.nes",
+  "name": "NES",
+  "version": "1.1.0",
+  "author": "IdreesWatch",
+  "summary": "Play NES games with touch controls and sound.",
+  "kind": "app",
+  "runtime": "elf",
+  "entry": "idreeswatch_module",
+  "icon": "gamepad",
+  "artifact": "idreeswatch_nes.so",
+  "min_os_api": 2,
+  "license": "GPL-2.0-only",
+  "content": {
+    "extensions": [".nes"],
+    "directory": "IdreesWatch/library/roms/nes",
+    "bundled": false
+  }
+}

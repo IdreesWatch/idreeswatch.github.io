@@ -1,0 +1,14 @@
+{
+  "id": "org.idreeswatch.theme.matrix",
+  "name": "Matrix",
+  "version": "1.0.0",
+  "author": "IdreesWatch",
+  "summary": "Black theme with green text and controls.",
+  "kind": "theme",
+  "runtime": "content",
+  "entry": "theme.palette.v1",
+  "icon": "settings",
+  "artifact": "theme.json",
+  "min_os_api": 1,
+  "license": "CC0-1.0"
+}

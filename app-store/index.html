@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b0c0e">
+    <meta
+      name="description"
+      content="Packages for IdreesWatchOS."
+    >
+    <title>IdreesWatch App Store</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="shell header-row">
+        <a class="brand" href="./">IdreesWatch App Store</a>
+        <nav aria-label="Primary navigation">
+          <a href="./v1/catalog.json">Catalog JSON</a>
+          <a href="https://github.com/IdreesWatch/app-store">GitHub</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="shell">
+      <section class="intro" aria-labelledby="page-title">
+        <h1 id="page-title">IdreesWatch App Store</h1>
+        <p>
+          Choose what you want to install. Nothing downloads automatically.
+        </p>
+      </section>
+
+      <section aria-labelledby="catalog-title">
+        <div class="section-row">
+          <h2 id="catalog-title">Packages</h2>
+          <p id="catalog-status" role="status">Loading catalog...</p>
+        </div>
+        <div class="app-list" id="app-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="developers" aria-labelledby="developers-title">
+        <h2 id="developers-title">Make something</h2>
+        <p>
+          Add an app, watchface, theme, wallpaper, or icon pack with a pull
+          request. People still choose whether to install it.
+        </p>
+        <a href="https://github.com/IdreesWatch/app-store">
+          View the source
+        </a>
+      </section>
+    </main>
+
+    <footer>
+      <div class="shell">
+        IdreesWatchOS does not distribute ROMs, BIOS files, or WADs.
+      </div>
+    </footer>
+  </body>
+</html>

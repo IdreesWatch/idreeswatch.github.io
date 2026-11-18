@@ -1,0 +1,14 @@
+{
+  "id": "org.idreeswatch.python.hello",
+  "name": "MicroPython",
+  "version": "1.1.0",
+  "author": "IdreesWatch",
+  "summary": "Run Python scripts on the watch.",
+  "kind": "app",
+  "runtime": "micropython",
+  "entry": "micropython.v1",
+  "artifact": "main.py",
+  "icon": "assistant",
+  "license": "MIT",
+  "min_os_api": 1
+}
